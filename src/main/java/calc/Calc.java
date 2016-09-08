@@ -1,6 +1,7 @@
 package calc;
 
 import java.util.Scanner;
+import javax.swing.* ;
 
 public class Calc {
 
@@ -15,6 +16,7 @@ public class Calc {
       CalcFunc func = new CalcFunc() ;
       System.out.println("Hello, I'm Simp-reCalc");
       Scanner scan = new Scanner(System.in) ;
+      JOptionPane.showMessageDialog( null, "Hello!" );
 
 
       System.out.println("Please enter your value or hit 'x' for EXIT");
